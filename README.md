@@ -4,7 +4,7 @@
 -----------------------------
 
 
-` gcc-o tfim_sigma _z __ tfim_sigma _z __.c-lm`
+` gcc -o tfim_sigma _z __ tfim_sigma _z __.c-lm`
 
 `./tfim_sigma_z __ <h_init> <h_final> <samplesize> <N>`
 
