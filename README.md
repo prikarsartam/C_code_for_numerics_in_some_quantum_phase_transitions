@@ -1,6 +1,6 @@
 # C_code_for_numerics_in_some_quantum_phase_transitions
 
-This repository explores some finite size scaling properties of location of turning points and peak heights of a susceptibility of entanglement entropy in transverse field Ising model and XY model(to be added) in 1D, using C.
+This repository explores some finite size scaling properties of location of turning points and peak heights of a susceptibility of entanglement entropy in transverse field Ising model and XY model(to be added) in 1D, using C. Also precision checks between computations in double and long double type are present. 
 
 
 
