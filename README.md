@@ -1,9 +1,10 @@
-# C_code_for_numerics_in_some_quantum_phase_transitions
+# C code for numerics in some quantum phase transitions
 
 This repository explores some finite size scaling properties of location of turning points and peak heights of a susceptibility of entanglement entropy in transverse field Ising model and XY model(to be added) in 1D, using C. Also precision checks between computations in double and long double type are present. 
 
 
-
+-----------------------------
+### TFIM
 -----------------------------
 
 
@@ -58,3 +59,40 @@ For generating the data in `double` computation
 
 
 ----------------------------
+
+-----------------------------
+### XY
+-----------------------------
+
+
+` gcc -o xy_sigma_z xy_sigma_z__.c -lm`
+
+`./xy_sigma_z <\[Gamma]_init> <\[Gamma]_final> <samplesize> <N>`
+
+
+-----------------------------
+
+
+`gcc -o xy_suscept_ent_ent__ xy_suscept_ent_ent__.c -lm`
+
+`./xy_suscept_ent_ent__ <\[Gamma]_init> <\[Gamma]_final> <samplesize> <N>`
+
+
+-----------------------------
+
+
+`gcc -o xy_suscept_peak_loc__ xy_suscept_ent_ent_peak_scaling__.c -lm`
+
+`./xy_suscept_peak_loc__`
+
+
+-----------------------------
+
+
+`gcc -o xy_suscept_max xy_suscept_ent_ent_peak_height_caling__.c -lm`
+
+`./xy_suscept_max`
+
+
+-----------------------------
+
