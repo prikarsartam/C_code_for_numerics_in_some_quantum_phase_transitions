@@ -1,5 +1,8 @@
 # C code for numerics in some quantum phase transitions
 
+
+Due to the presence of some hypergeometric functions underneath, the optimization for a few functions in these contexts becomes tricky and so they require highly precise computation.
+
 This repository explores some finite size scaling properties of location of turning points and peak heights of a susceptibility of entanglement entropy in transverse field Ising model and XY model(to be added) in 1D, using C. Also precision checks between computations in double and long double type are present. 
 
 
