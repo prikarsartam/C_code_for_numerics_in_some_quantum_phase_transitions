@@ -37,3 +37,24 @@ This repository explores some finite size scaling properties of location of turn
 
 
 -----------------------------
+
+
+For generating the data in `long double` computation
+
+`gcc -o dataCompTFIM_in_LongDouble tfim_suscept_ent_ent__dataComparison.c -lm`
+
+`./dataCompTFIM_in_LongDouble <N>`   
+
+
+----------------------------
+
+
+
+For generating the data in `double` computation
+
+`gcc -o dataCompTFIM_in_Double tfim_suscept_ent_ent__inDouble_dataComparison.c -lm`
+
+`./dataCompTFIM_in_Double <N>`
+
+
+----------------------------
